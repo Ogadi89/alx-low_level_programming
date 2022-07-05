@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* jack_bauer : prints 24 hours
+* jack_bauer -> prints 24 hours
 */
 void jack_bauer(void)
 {
@@ -34,5 +34,6 @@ void jack_bauer(void)
 			}
 
 		}
+		_putchar('\n);
 	}
 }
