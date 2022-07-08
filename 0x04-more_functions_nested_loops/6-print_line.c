@@ -1,19 +1,43 @@
-#include "main.h"
+#include"main.h"
+
+
 
 /**
- * print_line -> printing line
- * @n: integer parameters
- */
-void print_line(int n)
-{
-	int x;
+ *
+ *  * print_line - print a straight line
+ *
+ *   *
+ *
+ *    * @n: is the number of times the _ character
+ *
+ *     *     should be printed
+ *
+ *      */
 
-	if (n <= 0)
-		_putchar('\n');
-	else
-	{
-		for (x = 0; x <= n; x++)
-			_putchar(95);
-		_putchar('\n');
-	}	
+
+
+void print_line(int n)
+
+{
+
+		int lnChr;
+
+
+
+			if (n <= 0)
+
+						_putchar('\n');
+
+				else
+
+						{
+
+									for (lnChr = 1; lnChr <= n; ++lnChr)
+
+													_putchar('_');
+
+											_putchar('\n');
+
+												}
+
 }
